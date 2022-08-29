@@ -261,7 +261,7 @@ module.exports = function (_env = {}, argv = {}) {
       disableHostCheck: true,
       inline: !isCI,
       liveReload: !isCI,
-      https: true,
+      https: false,
       host: "0.0.0.0",
       port: envVars.PORT,
       stats: "minimal",
